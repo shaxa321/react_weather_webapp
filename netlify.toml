@@ -1,4 +1,3 @@
-netlify init
 
 
 [[redirects]]
@@ -6,5 +5,3 @@ netlify init
   from = "/*"
   to = "/index.html"
   status = 200
-[build]
-command = “CI= npm run build”
